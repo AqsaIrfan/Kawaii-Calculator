@@ -1,5 +1,6 @@
 import React from "react";
-import { Box } from "@mui/material";
+
+import { Box, Typography, Paper } from "@mui/material";
 
 export default function Display({ input, isBlinking }) {
   return (
