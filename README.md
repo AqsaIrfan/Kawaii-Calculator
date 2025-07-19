@@ -16,7 +16,7 @@ A super cute React-based kawaii calculator with a blinking face, floating sparkl
 
 ## 📸 Preview
 
-[Kawaii Calculator Preview](Assets/kawaii-preview.gif)
+[Kawaii Calculator Preview](Assets/kawaii-calculator-preview.gif)
 
 ## 🛠️ Setup
 
