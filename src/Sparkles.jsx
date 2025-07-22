@@ -5,15 +5,22 @@ export default function Sparkles() {
   return (
     <Box
       sx={{
+        backgroundColor: "#eeebcdff",
         position: "fixed",
         top: 0,
         left: 0,
-        width: "100vw",
+        // width: "100vw",
         height: "100vh",
         zIndex: -1,
         overflow: "hidden",
         pointerEvents: "none",
+        width: {
+          xs: "100%",
+          sm: "100vw",
+          md: "100vw",
+        },
       }}
+      maxWidth="xs"
     >
       {Array.from({ length: 30 }).map((_, i) => (
         <Typography

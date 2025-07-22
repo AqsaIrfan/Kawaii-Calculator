@@ -86,9 +86,9 @@ export default function App() {
       <Container
         sx={{
           width: {
-            xs: "90%",
-            sm: "400px",
-            md: "500px",
+            xs: "100%",
+            sm: "400vw",
+            md: "500vw",
           },
         }}
         maxWidth="xs"
@@ -99,9 +99,9 @@ export default function App() {
         <Box
           sx={{
             width: "500px",
-            mt: 8,
+            mt: 13,
             border: "6px solid black",
-            backgroundColor: "#ffcc33",
+            backgroundColor: "#ebaf17",
             borderRadius: "60px",
             boxShadow: 6,
             px: 2,
